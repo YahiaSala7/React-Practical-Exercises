@@ -1,0 +1,49 @@
+body{
+background-color: rgba(0, 0, 0, 0.829);
+}
+
+.box{
+height: calc(100vh - 80px);
+background-color: white;
+border-radius: 5px;
+padding: 30px;
+box-shadow: -1px 3px 15px 2px #000000a8;
+width: 800px;
+overflow: hidden;
+
+}
+.info{
+
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+.content{
+display: flex;
+flex-direction: column;
+background-color: silver;
+margin-bottom: 20px;
+border-radius: 10px;
+}
+.info .icon-rotate,
+.info .icon{
+font-size: 25px;
+color: red;
+margin: 5px 10px 0 0;
+cursor: pointer;
+transition: .4s;
+
+}
+.info .icon-rotate{
+transform: rotate(90deg);
+}
+.answer{
+    padding: 0 10px 10px;
+    margin: 0 20px 0;
+    color: #000000a8;
+    font-weight: bold;
+    transition: .4s;
+    overflow-wrap: break-word;
+    
+}
