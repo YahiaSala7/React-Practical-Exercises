@@ -1,0 +1,52 @@
+body{
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offer-box{
+    height: 550px;
+    width: 550px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-message{
+    height: 300px;
+    width: 300px;
+    border: 1.5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+ .icon-x{
+    color: red;
+    padding: 2px;
+    border: 1px solid black ;
+    margin: 2px;
+    align-self: flex-start;
+    cursor: pointer;
+}
+.offer-accepted,
+.offer-message p{
+   font-weight: bold;
+   text-align: center;
+}
+ .button-show,
+.offer-message .button-accept{
+    font-weight: bold;
+    align-self: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.button-show{
+padding:15px 50px;
+}

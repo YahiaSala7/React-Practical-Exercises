@@ -39,5 +39,20 @@
     //   question: "How long do cats live",
     //   answer: "Outdoor cats live 5 years on average. Indoor\ncats live 15 years on average.",
     // },
+    // {
+    //   id:9,
+    //   question: "How long do cats live",
+    //   answer: "Outdoor cats live 5 years on average. Indoor\ncats live 15 years on average.",
+    // },
+    // {
+    //   id:10,
+    //   question: "How long do cats live",
+    //   answer: "Outdoor cats live 5 years on average. Indoor\ncats live 15 years on average.",
+    // },
+    // {
+    //   id:11,
+    //   question: "How long do cats live",
+    //   answer: "Outdoor cats live 5 years on average. Indoor\ncats live 15 years on average.",
+    // },
   ]
   export default data

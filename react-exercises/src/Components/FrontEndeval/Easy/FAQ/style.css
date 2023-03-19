@@ -1,21 +1,19 @@
-.App {
+body {
 background-color: rgba(0, 0, 0, 0.829);
 display: flex;
 justify-content: center;
 align-items: center;
-height: 100vh;
 }
 
 
 .box{
-height: calc(100vh - 80px);
+margin: 20px 0;
 background-color: white;
 border-radius: 5px;
 padding: 30px;
 box-shadow: -1px 3px 15px 2px #000000a8;
 width: 800px;
 overflow: hidden;
-
 }
 .info{
 
