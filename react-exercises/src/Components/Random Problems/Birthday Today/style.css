@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e76ea7;
+    height: 100vh;
+}
+.box{
+background-color: white;
+border-radius: 5px;
+padding: 30px;
+box-shadow: -1px 3px 15px 2px #000000a8;
+width: 400px;
+}
+.box  h2{
+font-weight: 500;
+}
+.box  button{
+    padding: 15px 0px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #e76ea7;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.box .person{
+display: flex;
+align-items: center;
+}
+.box .person:not(:last-child){
+margin-bottom:20px ;
+}
+.box .person .img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.box .person .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5px;
+}
+.box .person .info p{
+    color:#859399;
+    margin:5px 0 0 0;
+}
+.box .person .info h3{
+    margin: 0;
+}
